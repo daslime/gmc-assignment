@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rack Mount LCD Monitors Installation Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': '#282550',
+                        'light-blue': '#EEF0FF'
+                    },
+                    fontFamily: {
+                        'sans': ['poppins', 'system-ui', 'sans-serif'],
+                        'merriweather': ['Merriweather', 'serif']
+                    },
+                    backgroundImage: {
+                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-white via-blue-50/80 to-indigo-100/50 min-h-screen">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Navigation -->
+        <nav class="flex flex-col md:flex-row md:justify-between md:items-center py-6 space-y-4 md:space-y-0">
+            <div>
+                <div class="flex">
+                    <div class="w-8 h-8 bg-navy"></div>
+                    <div class="w-4 h-4 bg-navy -ml-2 mt-6"></div>
+                </div>
+            </div>
+            <div class="flex flex-wrap items-center gap-4 sm:gap-6 md:gap-8">
+                <a href="#" class="text-navy hover:text-navy/80 font-medium">Home</a>
+                <a href="#" class="text-navy hover:text-navy/80 font-medium">Documents</a>
+                <a href="#" class="text-navy hover:text-navy/80 font-medium">API</a>
+                <a href="#" class="text-navy hover:text-navy/80 font-medium">About</a>
+                <a href="#" class="text-navy hover:text-navy/80 font-medium">Log in</a>
+                <a href="#" class="bg-navy text-white px-4 sm:px-6 py-2 rounded font-medium hover:bg-navy/90 transition">Sign up</a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="py-8 md:py-14">
+            <div class="max-w-xl">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-navy mb-4 sm:mb-6 leading-tight font-merriweather">Steps In Installing<br class="hidden sm:block">Rack Mount Lcd<br class="hidden sm:block">Monitors</h1>
+                <p class="text-navy text-base sm:text-lg">Do you know what could beat the exciting feeling<br class="hidden sm:block">of having a new computer? Make your own PC!</p>
+            </div>
+
+            <!-- Cards Section -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 sm:mt-16 md:mt-20 mb-16">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1),0_8px_10px_-6px_rgba(0,0,0,0.1)] hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] transition-shadow duration-300 p-6 sm:p-8 h-[280px] w-full flex flex-col">
+                    <h2 class="text-lg sm:text-xl font-semibold text-navy font-merriweather">Discover the best<br class="hidden sm:block">stores near you</h2>
+                    <div class="mt-auto pt-6 sm:pt-10">
+                        <div class="flex items-center">
+                            <span class="text-[#4F46E5] font-medium">NORWAY</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#4F46E5] ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1),0_8px_10px_-6px_rgba(0,0,0,0.1)] hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] transition-shadow duration-300 p-6 sm:p-8 h-[280px] w-full flex flex-col">
+                    <h2 class="text-lg sm:text-xl font-semibold text-navy mb-3 sm:mb-4 font-merriweather">Resources</h2>
+                    <p class="text-gray-700 text-sm leading-relaxed">Do you know what could beat the <br> exciting feeling of having a new <br> computer? Make your own PC!</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1),0_8px_10px_-6px_rgba(0,0,0,0.1)] hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] transition-shadow duration-300 p-6 sm:p-8 h-[280px] w-full flex flex-col">
+                    <h2 class="text-lg sm:text-xl font-semibold text-navy font-merriweather">+5K tools for you<br class="hidden sm:block">to choose from</h2>
+                    <div class="mt-auto pt-6 sm:pt-10">
+                        <a href="#" class="inline-block  text-[#4F46E5] px-4 sm:px-6 py-2 rounded-full text-sm hover:bg-indigo-50 transition">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
